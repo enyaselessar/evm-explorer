@@ -1,0 +1,16 @@
+{
+    "mongo": "mongodb://localhost:27017",
+    "seed":  "remain goose poverty diet easily west mother deliver sunny tilt remain warrior pond come defy idle rural essence powder give hunt grow series asset",
+    "node": "https://froopyland.dymension.xyz/16/aazifiri_7919697-1/evmrpc",
+    "restAPI": "https://froopyland.dymension.xyz/16/aazifiri_7919697-1/rest",
+    "restAPIport": 2343,
+    "chainId": "aazifiri_7919697-1",
+    "pg": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "enzifiri",
+        "password": "asd123asd",
+        "database": "explorer"
+    },
+    "ApiKeyToken": ""
+}

@@ -1,0 +1,381 @@
+iframe
+{
+    display: none;
+}
+
+body {
+  background-image: url('../public/Z+0Cks.png');
+  background-size: cover; /* Resmin ekran boyutuna oturmasini saglar */
+  /* Diger stil tanimlamalari */
+}
+
+/*
+blue: 0f133f
+red: 3f0f13
+green: 133f0f
+purple: 240f3f
+cyan: 0f2b3f
+yellow: 3f3c0f
+mauve2: 3c0f3f
+gris: e9e9e9
+*/
+
+.App {
+  text-align: center;
+  background: #0f2b3f;
+
+
+  background-image: url('../public/Z+0Cks.png');
+  background-size: cover; /* Resmin ekran boyutuna oturmasini saglar */
+  background-position: center top;
+
+
+  /* background-image: linear-gradient(to right, #0f133f, #3c0f3f, #0f2b3f); */
+
+  /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #282c34;
+  margin: 0;
+
+}
+
+.app-body {
+  /* display: flex;
+
+  flex-direction: column; */
+  
+  align-items: center;
+
+  /* width: 100vw; */
+
+  min-height: 80vh;
+}
+
+
+.container {
+  max-width: 95%;
+}
+
+.navbar {
+    background-image: url('../public/Z+0Cks.png');
+  background-size: cover; /* Resmin ekran boyutuna oturmasini saglar */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+  text-shadow: #000000 1px 1px 2px;
+  font-weight: bold;
+  font-family: 'Public Pixel', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.nav-last-block {
+  text-align: left;
+  vertical-align: top;
+  color: black;
+  font-size: 0.7em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  size: 1px;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  height: 50px;
+  width: 160px;
+  border: 1px solid #fffff;
+  background: linear-gradient(to bottom, #ffffff,#ffffff);
+
+  /* inner drop shadow */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0); */
+}
+
+h2 {
+  color:#ffffff;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-family: 'Public Pixel', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color:#ffffff;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px 2px #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  color:#ffffff;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+h5 {
+  color:#ffffff;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  text-shadow:1px 1px 2px #000000;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0f57e9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.footer {
+
+  background-color: rgba(0, 0, 0, 0.0); /* Red, Green, Blue ve Alpha (saydamlik) degerini ayarlayin */
+  color: white;
+  position: absolute;
+  width: 100%;
+  min-height: 10px;
+  font-size: 1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 50px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  
+}
+
+  /* min-height: 15vh;
+   display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 1vmin);
+  color: white;
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.std-card-info-body {
+  /* font-size: small; */
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+}
+
+.std-card-info {
+  font-size: small;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+}
+
+.btn-card {
+  font-size: small;
+  padding: 2px 5px 2px 5px;
+  text-align: left;
+}
+
+
+.btn-list {
+  font-size: small;
+  padding: 0px 3px 0px 3px;
+  text-align: center;
+  font-size: small;
+}
+
+.list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-group-item {
+  padding: 5px 2px 5px 2px;
+  margin: 0px 0px 0px 0px;
+  /* blink once */
+
+}
+
+.fadein {
+  animation-name: fadein;
+  animation-duration: 1s;
+}
+
+
+.std-card-title {
+  font-size: x-large;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+}
+
+.col-list {
+  padding: 0px 0px 2px 3px;
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+}
+
+.std-card-txlogs {
+  font-size: small;
+  padding: 0px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
+  text-align: left;
+}
+
+.event-table {
+  font-size: small;
+  padding: 0px 0px 0px 0px;
+  margin: 5px 0px 5px 0px;
+  text-align: center;
+}
+
+.infobox {
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 10px 0px;
+  border: #102c41 0px solid;
+}
+
+
+
+.infobox-header {
+  background: linear-gradient(to bottom, #e4e1e1,#0f2b3f);
+  padding: 0px 0px 100px 0px;
+}
+
+.nopadding {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.Address {
+  text-align: left;
+  float: left;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid #e4e1e1;
+}
+
+.Title {
+  text-align: left;
+  float: left;
+  width: 100%;
+  padding: 0px;
+  margin: 0px 0px 15px 0px;
+  border: 0px solid #e4e1e1;
+}
+
+.extra-container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.font-small {
+  font-size: small;
+}
+
+
+
+.shadowCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px #000000;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+div.card.box {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 10px 0px;
+}
+
+
+
+.table-button {
+  padding: 0px;
+  margin: 0px 1px 8px 3px;
+  height: 10px;
+  width: 12px;
+}
+
+.spinner {
+  margin: 100px auto;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 10px;
+}
+
+
+.color2 {
+  background-color: #0f2b3f;
+  border: #0f2b3f 1px solid;
+}
+
+
+.morebutton {
+  width: 100%;
+}
+
+.card-header1 {
+  background: linear-gradient(to bottom, #ffffff,#133f0f);
+}
+.card {
+  border: 0px;
+  border: #0f2b3f 0px solid;
+}
+.card-header {
+  border: #0f2b3f 0px solid;
+}
+
+/* change the success botton to dark red */
+/* .btn-success {
+  background-color: #133f0f;
+  border-color: #133f0f;
+}
+.btn-alert {
+  background-color: #3f0f13;
+  border-color: #3f0f13;
+} */
+
+.qr-code {
+  width: auto;
+  height: 100%;
+  align-items: center;
+}
